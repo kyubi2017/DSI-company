@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
+:root {
+  --body-font: "Roboto", sans-serif;
+  --body-font-size: 16px;
+  --body-font-light: 300;
+  --body-font-regular: 400;
+  --body-font-bold: 700;
+  --first-color: #ee4248;
+  --second-color: #1f2e35;
+  --third-color: #30444e;
+  --fourth-color: #ffffff;
+  --fifth-color: #e4e9f3;
+  --padding-: 10rem;
+}
+.nav-link[aria-current="page"] {
+  text-decoration: underline wavy var(--first-color) 0.15rem;
+  text-underline-offset: 0.5rem;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--second-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--first-color);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--third-color);
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: var(--body-font-size);
+  font-weight: var(--body-font-regular);
+  padding-top: 60px;
+  color: var(--second-color);
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: var(--body-font-bold);
+}
+
+a {
+  text-decoration: none;
+  color: #1f2e35;
+}

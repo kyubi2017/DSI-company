@@ -1,0 +1,19 @@
+{
+  "name": "clone-project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^4.1.0"
+  },
+  "dependencies": {
+    "gsap": "^3.11.4",
+    "remixicon": "^2.5.0",
+    "vanilla-tilt": "^1.8.0"
+  }
+}
