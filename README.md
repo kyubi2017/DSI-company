@@ -14,6 +14,7 @@ copy from real world project
 cd DSI-company
 npm install
 npm run dev
+```
 
-## Live Demo
+## Live Demo :
 you can visit this copy of my website  :  <a href="https://dsi-company.vercel.app/" target="_blank" >from here</a>
